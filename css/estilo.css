@@ -1,3 +1,6 @@
+html{
+	width: 100%;
+}
 body{
 	font-family: 'Roboto', sans-serif;
 	color: #333;
@@ -75,23 +78,23 @@ ul.inline li, ol.inline li{
 	margin-right: 15px;
 }
 ul.inline li:last-child, ol.inline li:last-child{
-	margin-right: 0px;
+	margin-right: -30px;
 }
 ul.sem-marcador, ol.sem-marcador{
 	list-style: none;
 }
 a.botao, input.botao{
-	background: #1F3C58;
+	background: #3a2097;
 	padding: 5px 10px;
 	border-radius: 3px;
 	color: #ebebeb;
 	cursor: pointer;
 	margin: 5px 0;
 	display: inline-block;
-	border: none;
+	border: none; 
 }
 a.botao:hover, input.botao:hover{
-	background: #315E8A;
+	background: #6116a8;
 	text-decoration: none;
 }
 img{
@@ -100,7 +103,7 @@ img{
 }
 /* layout do site*/
 .header{
-	background: #DEE6E6;	
+	background: #23caca;	
 }
 h1.logo{
 	font-weight: 500;
@@ -111,7 +114,7 @@ h1.logo{
 	background: #F1F2EA;	
 }
 .footer{
-	background: #1f3c58;
+	background: #111f2c;
 	color: #EBEBEB;
 	padding: 20px 0;
 	text-align: center;
